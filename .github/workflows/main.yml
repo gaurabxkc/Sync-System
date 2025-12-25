@@ -2,7 +2,7 @@ name: System Sync
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Keep as backup
+    - cron: '*/59 * * * *'  # as backup
   workflow_dispatch:        # Manual button
   repository_dispatch:      # <--- NEW ADDITION
     types: [ping]
